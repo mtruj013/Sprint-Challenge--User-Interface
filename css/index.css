@@ -222,16 +222,18 @@ header nav a {
 .about-page{
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    padding-bottom: 20px;
 }
 
 .content1, .content2{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly; 
+    margin: 3px;
 }
 
-.strategy{
-    display: flex;
+
+.strategy, .how-we-work, .places-we-work, .collaboration{
     border-bottom: 1px dashed black;
-    flex-direction: column;
-    justify-content: space-around;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
