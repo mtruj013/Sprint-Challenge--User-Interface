@@ -215,3 +215,15 @@ header nav a {
 #box10{
     background: dodgerblue;
 }
+
+
+/*about page starts here*/
+
+.about-page{
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.content1, .content2{
+    display: flex;
+}
